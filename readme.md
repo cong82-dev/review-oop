@@ -28,8 +28,14 @@
     + employee management: base class Employee with subclasses FullTimeEmployee, PartTimeEmployee, Contractor
     + vehicle management: base class Vehicle with subclasses Car, Truck, Motorcycle
 ### 4. Polymorphism (da hinh)
-- define: the ability of different classes to be treated as instances of the same class through a common interface
+- define: a action or method but can be performed(thuc hien) in different ways
 - Practical use:
+    + exam : pay method in Payment class can be implemented differently in each subclass
     + method overloading (nap chong phuong thuc)
     + method overriding (ghi de)
     + interface implementation (thuc thi giao dien)
+- type: 
+    + overloading (nap chong phuong thuc): same method name but different parameters (type, number, order)
+    + overriding (ghi de): subclass provides specific implementation of a method already defined in its superclass
+### 5. Encapsulation (dong goi)
+- define : use for hide data 
